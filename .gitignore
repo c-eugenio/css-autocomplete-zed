@@ -1,0 +1,20 @@
+# Rust build artifacts
+target/
+
+# Compiled extension (built by Zed automatically)
+*.wasm
+
+# Zed extension internals
+grammars/
+debug/
+
+# Hidden dirs (except .gitignore itself)
+.*/
+!.gitignore
+
+# macOS
+.DS_Store
+
+# Markdown files except README
+*.md
+!README.md

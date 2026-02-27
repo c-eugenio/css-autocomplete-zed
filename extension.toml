@@ -1,0 +1,18 @@
+id = "css-class-autocomplete"
+name = "CSS Class Autocomplete"
+version = "0.1.0"
+schema_version = 1
+authors = ["Cesar"]
+description = "Autocompletes CSS class names in HTML and PHP files"
+repository = ""
+themes = []
+icon_themes = []
+languages = []
+capabilities = []
+
+[language_servers.css-class-lsp]
+languages = ["HTML", "PHP"]
+
+[language_servers.css-class-lsp.language_ids]
+HTML = "html"
+PHP = "php"
