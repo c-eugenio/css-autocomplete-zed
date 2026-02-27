@@ -15,8 +15,11 @@ kind = "Rust"
 version = "0.7.0"
 
 [language_servers.css-class-lsp]
-languages = ["HTML", "PHP"]
+languages = ["HTML", "PHP", "JavaScript", "TypeScript", "TSX"]
 
 [language_servers.css-class-lsp.language_ids]
 HTML = "html"
 PHP = "php"
+JavaScript = "javascript"
+TypeScript = "typescript"
+TSX = "tsx"

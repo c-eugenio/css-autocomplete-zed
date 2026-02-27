@@ -1,10 +1,10 @@
 # CSS Class Autocomplete — Zed Extension
 
-A [Zed](https://zed.dev) extension that provides CSS class name autocompletion in HTML and PHP files.
+A [Zed](https://zed.dev) extension that provides CSS class name autocompletion in HTML, PHP, JS and TSX files.
 
 - Suggests classes from **Bootstrap 5.3** out of the box (no local CSS file needed)
 - Also scans your workspace for any `.css`, `.scss`, `.sass`, or `.less` files and suggests those classes too
-- Completions only appear inside `class="..."` attributes — not everywhere
+- Completions only appear inside `class="..."` or `className="..."` attributes — not everywhere
 
 ---
 

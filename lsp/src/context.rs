@@ -45,7 +45,8 @@ pub fn is_in_class_attribute(text: &str, pos: Position) -> bool {
 
     let before = &text[..cursor];
 
-    let open_re = Regex::new(r#"\bclass\s*=\s*["']"#).unwrap();
+    // Match both class="..." (HTML/PHP) and className="..." (JSX/TSX)
+    let open_re = Regex::new(r#"\bclass(?:Name)?\s*=\s*["']"#).unwrap();
     let last_match = open_re.find_iter(before).last();
 
     let result = if let Some(m) = last_match {
