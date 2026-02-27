@@ -11,6 +11,7 @@ debug/
 # Hidden dirs (except .gitignore itself)
 .*/
 !.gitignore
+!.github
 
 # macOS
 .DS_Store
