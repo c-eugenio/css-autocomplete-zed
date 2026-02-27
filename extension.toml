@@ -10,6 +10,10 @@ icon_themes = []
 languages = []
 capabilities = []
 
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
 [language_servers.css-class-lsp]
 languages = ["HTML", "PHP"]
 
