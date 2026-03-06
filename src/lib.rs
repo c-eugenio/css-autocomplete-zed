@@ -84,7 +84,7 @@ impl CssClassAutocomplete {
         zed::download_file(&url, BINARY_NAME, DownloadedFileType::GzipTar)
             .map_err(|e| format!("failed to download {BINARY_NAME}: {e}"))?;
 
-        let binary_path = format!("{BINARY_NAME}/{BINARY_NAME}");
+        let binary_path = format!("{BINARY_NAME}/{BINARY_NAME}/{BINARY_NAME}");
 
         zed::make_file_executable(&binary_path)
             .map_err(|e| format!("failed to make {BINARY_NAME} executable: {e}"))?;
